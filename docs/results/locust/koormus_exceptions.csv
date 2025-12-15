@@ -1,0 +1,12 @@
+Count,Message,Traceback,Nodes
+248,502 Server Error: Bad Gateway for url: http://localhost:8000/api/koond,"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 342, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 375, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 492, in execute_task
+    task(self.user)
+  File ""/mnt/c/Users/opilane/source/repos/testing_project_combined/tests-performance-locust/locustfile.py"", line 12, in lae_koond
+    vastus.raise_for_status()
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+",local
