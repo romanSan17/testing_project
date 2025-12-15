@@ -2,7 +2,7 @@
 
 ## Kiirstart
 ```bash
-cd /Users/robinrattasep/testing_project/frontend
+cd /Users/source/repos/testing_project/frontend
 python -m http.server 4173
 ```
 Seejärel ava brauseris `http://localhost:4173`.
@@ -17,4 +17,5 @@ Seejärel ava brauseris `http://localhost:4173`.
 - Asenda `G-XXXXTEST` oma mõõtmistunnusega või kasuta `.env` injektsiooni.
 - Hoia backend vaikimisi aadressil `http://localhost:8000`; vajadusel kasuta `window.API_URL`.
 - Lisa uued variandid `ab.js` massiivi `VARIANDID`, et testid neid automaatselt haaraksid.
+
 
